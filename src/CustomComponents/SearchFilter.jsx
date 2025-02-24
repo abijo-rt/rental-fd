@@ -7,7 +7,7 @@ import { FaFilter } from "react-icons/fa";
 const SearchFilter = () => {
     return (
         <>
-            <div className='h-full w-full flex flex-col items-center space-y-2 pt-2'>
+            <div className='h-full w-full flex flex-col items-center space-y-2 pt-2 overflow-y-auto'>
 
                 <div className="h-fit w-[95%] border rounded-md  border-gray-200">
                     <div className="h-15 w-[100%] bg-[#f3f4f6]  border-b border-b-gray-100 flex">
@@ -18,6 +18,85 @@ const SearchFilter = () => {
                             <input className="montserrat-font  rounded-md border h-[70%] w-[95%] focus:outline-none p-5 text-md text-gray-700" placeholder="Enter Location"></input>
                         </div>
                      </div>
+                     
+                     <div className="montserrat-font  h-fit w-full flex flex-col  space-y-4 pt-4 pb-4">
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                     </div>
+                </div>
+
+                <div className="h-fit w-[95%] border rounded-md  border-gray-200">
+                    <div className="h-15 w-[100%] bg-[#f3f4f6]  border-b border-b-gray-100 flex">
+                        <div className='w-[20%] flex items-center justify-center'>
+                            <FaFilter size={20} />
+                        </div>
+                        <div className=' w-[80%]  h-full flex items-center justify-start'>
+                            <input className="montserrat-font  rounded-md border h-[70%] w-[95%] focus:outline-none p-5 text-md text-gray-700" placeholder="Enter Location"></input>
+                        </div>
+                     </div>
+
+                     <div className="montserrat-font  h-fit w-full flex flex-col  space-y-4 pt-4 pb-4">
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                     </div>
+                </div>
+                
+                <div className="h-fit w-[95%] border rounded-md  border-gray-200">
+                    <div className="h-15 w-[100%] bg-[#f3f4f6]  border-b border-b-gray-100 flex">
+                        <div className='w-[20%] flex items-center justify-center'>
+                            <FaFilter size={20} />
+                        </div>
+                        <div className=' w-[80%]  h-full flex items-center justify-start'>
+                            <input className="montserrat-font  rounded-md border h-[70%] w-[95%] focus:outline-none p-5 text-md text-gray-700" placeholder="Enter Location"></input>
+                        </div>
+                     </div>
+
+                     <div className="montserrat-font  h-fit w-full flex flex-col  space-y-4 pt-4 pb-4">
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                     </div>
+                </div>
+                <div className="h-fit w-[95%] border rounded-md  border-gray-200">
+                    <div className="h-15 w-[100%] bg-[#f3f4f6]  border-b border-b-gray-100 flex">
+                        <div className='w-[20%] flex items-center justify-center'>
+                            <FaFilter size={20} />
+                        </div>
+                        <div className=' w-[80%]  h-full flex items-center justify-start'>
+                            <input className="montserrat-font  rounded-md border h-[70%] w-[95%] focus:outline-none p-5 text-md text-gray-700" placeholder="Enter Location"></input>
+                        </div>
+                     </div>
+
+                     <div className="montserrat-font  h-fit w-full flex flex-col  space-y-4 pt-4 pb-4">
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                        <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
+                     </div>
+                </div>
+                <div className="h-fit w-[95%] border rounded-md  border-gray-200">
+                    <div className="h-15 w-[100%] bg-[#f3f4f6]  border-b border-b-gray-100 flex">
+                        <div className='w-[20%] flex items-center justify-center'>
+                            <FaFilter size={20} />
+                        </div>
+                        <div className=' w-[80%]  h-full flex items-center justify-start'>
+                            <input className="montserrat-font  rounded-md border h-[70%] w-[95%] focus:outline-none p-5 text-md text-gray-700" placeholder="Enter Location"></input>
+                        </div>
+                     </div>
+
                      <div className="montserrat-font  h-fit w-full flex flex-col  space-y-4 pt-4 pb-4">
                         <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
                         <div className="w-full flex items-center text-gray-600 justify-start pl-15 space-x-4"><input type="checkbox" /> <label>Erode</label> </div>
@@ -31,10 +110,6 @@ const SearchFilter = () => {
                 
                 
                 
-                <div className="h-[20%] w-[95%] border rounded-md bg-[#f3f4f6] border-gray-200">location</div>
-                <div className="h-[20%] w-[95%] border rounded-md bg-[#f3f4f6] border-gray-200">location</div>
-                <div className="h-[20%] w-[95%] border rounded-md bg-[#f3f4f6] border-gray-200">location</div>
-                <div className="h-[20%] w-[95%] border rounded-md bg-[#f3f4f6] border-gray-200">location</div>
             </div>
          </>  
     );

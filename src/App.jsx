@@ -1,20 +1,13 @@
 // import { useState } from 'react'
-import Header from './CustomComponents/Header'
 import './App.css'
-import SearchResult from './CustomComponents/SearchResult'
-import HomeBanner from './CustomComponents/HomeBanner'
-import VerticalBar from './CustomComponents/VerticalBar'
-
+import { RouterProvider } from 'react-router-dom'
+import router from './Routes'
 function App() {
 
   return (
     <>
       <div className='h-screen w-screen'>
-            <Header/>
-            <HomeBanner/>
-            <VerticalBar/>
-            {/* <SearchFilter/>      */}
-            <SearchResult/>
+        <RouterProvider router={router}/>
       </div>
     </>
   )

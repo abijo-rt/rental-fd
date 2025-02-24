@@ -9,3 +9,8 @@
     font-weight: 600;
     font-style: normal;
   }
+
+
+  .active {
+    @apply border-b-5
+  }

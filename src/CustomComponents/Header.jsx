@@ -1,4 +1,5 @@
 import {Link} from 'phosphor-react'
+import { NavLink } from 'react-router-dom';
 const Header = () => {
 
     return (
@@ -9,10 +10,11 @@ const Header = () => {
                     <Link size={32} />
                     <span className="text-2xl font-bold">Linker</span>
                </div>
-               <div className='h-full flex w-[55%] items-center'  >
-               <span className=' p-5 font-semibold border-b-5 flex items-center border-b-green-500 h-full'>My Property</span>
-               <span className=' p-5 font-semibold border-b-5 flex items-center border-b-green-500 h-full'>Order</span>
-               <span className=' p-5 font-semibold border-b-5 flex items-center border-b-green-500 h-full'>Profile</span>
+               <div className=' montserrat-font h-full flex w-[55%] items-center '  >
+                    <NavLink to="/" className=' p-5 font-semibold  flex items-center  h-full'>Home</NavLink>
+                    <NavLink to="/myproperty" className=' p-5 font-semibold  flex items-center  h-full'>My Property</NavLink>
+                    <NavLink to="/order" className=' p-5 font-semibold  flex items-center  h-full'>Order</NavLink>
+                    <NavLink to="/sell" className=' p-5 font-semibold  flex items-center  h-full'>Want to sell ?</NavLink>
                </div>
                <div className="w-[25%] h-full flex items-center justify-end pr-10">
                 
