@@ -1,4 +1,6 @@
 import { useState , useEffect } from "react";
+import BuyHouse from "../CustomComponents/Form/BuyHouse";
+import FormProvider from "../CustomComponents/Form/FormProvider";
 
 const changeForm = (cate,type) => {
 
@@ -91,12 +93,10 @@ const Sell = () => {
                     </div>
                 </div>
                 {/* FORM BOGY */}
-                <div className="h-[85%] w-full p-2 flex flex-col space-y " >
-
-                {/* DESCTIPTION */}
-                {/* LOCATION */}
-                {/* RATE || RENT || START BID */}
-
+                <div className="h-[85%] w-full  " >
+                
+                <FormProvider cate={cate} type={type}/>
+                
                 </div>
               </div>
             </div>

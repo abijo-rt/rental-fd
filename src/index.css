@@ -12,5 +12,5 @@
 
 
   .active {
-    @apply border-b-5
+    @apply border-b-5 border-green-700
   }
